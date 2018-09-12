@@ -47,7 +47,8 @@ Use (cidr.xyz)[https://cidr.xyz/] to figure out subnet ranges within a VPC
 - VPC endpoints does not support cross-region S3 requests. So, if S3 bucket is in different region than the VPC, then VPC endpoint does not take effect. In this case, requests will go through NAT Gateway as the route table has a route to it.
 
 
-:cyclone: ## NAT - Network Address Translation 
+
+# NAT - Network Address Translation 
 
 ### NAT Instances
 
