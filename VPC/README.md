@@ -42,6 +42,10 @@ Use (cidr.xyz)[https://cidr.xyz/] to figure out subnet ranges within a VPC
 - You can peer VPCs with other AWS accounts as well as with other VPCs in the same account
 - Peering is in a star config: ie 1 central VPC peers with 4 others. NO TRANSITIVE PEERING!!
 
+### VPC Endpoint
+- VPC Endpoint always takes precedence over NAT Gateway or Internet Gateway. In the absence of VPC endpoint, requests to S3 are routed to NAT Gateway or Internet Gateway based on their existence in route table.
+- VPC endpoints does not support cross-region S3 requests. So, if S3 bucket is in different region than the VPC, then VPC endpoint does not take effect. In this case, requests will go through NAT Gateway as the route table has a route to it.
+
 ## NAT - Network Address Translation 
 
 ### NAT Instances
