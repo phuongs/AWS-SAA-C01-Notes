@@ -46,6 +46,13 @@ Use (cidr.xyz)[https://cidr.xyz/] to figure out subnet ranges within a VPC
 - VPC Endpoint always takes precedence over NAT Gateway or Internet Gateway. In the absence of VPC endpoint, requests to S3 are routed to NAT Gateway or Internet Gateway based on their existence in route table.
 - VPC endpoints does not support cross-region S3 requests. So, if S3 bucket is in different region than the VPC, then VPC endpoint does not take effect. In this case, requests will go through NAT Gateway as the route table has a route to it.
 - VPC endpoint has a policy which by default allows all actions on all S3 bucket. We can restrict access to certain S3 buckets and certain actions on this policy. In such cases, for accessing any new buckets or for any new actions, VPC endpoint policy needs to be modified accordingly.
+**LIMITATIONS:**
+    - Interface Endpoints currently does not support endpoint policies. Services are allowed with full access.
+    - Interface Endpoints currently supports only TCP traffic.
+    - We cannot tag Endpoints, like the way we do with EC2 instance.
+    - Endpoints are only supported within the same region. You cannot use endpoints to connect a service from one region to a VPC in a different region.
+    - Endpoints currently supports only IPv4 traffic.
+    - An endpoint once created cannot be transferred from one VPC to another or to a different service.
 
 
 
