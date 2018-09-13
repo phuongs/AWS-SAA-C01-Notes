@@ -48,12 +48,12 @@ Use (cidr.xyz)[https://cidr.xyz/] to figure out subnet ranges within a VPC
 - VPC endpoint has a policy which by default allows all actions on all S3 bucket. We can restrict access to certain S3 buckets and certain actions on this policy. In such cases, for accessing any new buckets or for any new actions, VPC endpoint policy needs to be modified accordingly.
 
 **LIMITATIONS:**
-    - Interface Endpoints currently does not support endpoint policies. Services are allowed with full access.
-    - Interface Endpoints currently supports only TCP traffic.
-    - We cannot tag Endpoints, like the way we do with EC2 instance.
-    - Endpoints are only supported within the same region. You cannot use endpoints to connect a service from one region to a VPC in a different region.
-    - Endpoints currently supports only IPv4 traffic.
-    - An endpoint once created cannot be transferred from one VPC to another or to a different service.
+- Interface Endpoints currently does not support endpoint policies. Services are allowed with full access.
+- Interface Endpoints currently supports only TCP traffic.
+- We cannot tag Endpoints, like the way we do with EC2 instance.
+- Endpoints are only supported within the same region. You cannot use endpoints to connect a service from one region to a VPC in a different region.
+- Endpoints currently supports only IPv4 traffic.
+- An endpoint once created cannot be transferred from one VPC to another or to a different service.
 
 
 
