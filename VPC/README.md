@@ -56,6 +56,7 @@ Direct Connect connection, or ClassicLink connection in your VPC cannot use the 
 - Endpoints are only supported within the same region. You cannot use endpoints to connect a service from one region to a VPC in a different region.
 - Endpoints currently supports only IPv4 traffic.
 - An endpoint once created cannot be transferred from one VPC to another or to a different service.
+- In a VPC peering connection, using NAT Gateway of another VPC becomes transitive routing and is not supported in AWS.
 
 
 
@@ -81,6 +82,7 @@ Direct Connect connection, or ClassicLink connection in your VPC cannot use the 
 - Having one NAT Gateway in one AZ is not good enough, must me redundant in multiple AZs
 - No need to disable Source/Destination Checks
 - More Secure than NAT Instance
+- A NAT gateway cannot send traffic over: VPC endpoints, VPN connection, AWS Direct Connect and VPC peering connections.
 
 ## NACL - Network Access Control Lists
 
