@@ -6,7 +6,7 @@ Think of VPC as virtual data center in the cloud!
 
 Amazon Virtual Private Cloud (Amazon VPC) lets you provision a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define.
 
-You have complete control over you virtual network environment, including selection of your own IP address range, creation of subnets and config of route tables and network gateways.
+You have complete control over you virtual network environment, including selection of your own IP address range, creation of subnets and config of route tables and network gateways. **VPC now allows customers to expand their VPCs by adding secondary IPv4 address ranges (CIDRs) to their VPCs.**
 
 You can easily customize the network config for your VPC. For example, you can create a public facing subnet of your webservers that has access to the internet, and place your backend systems such as databases or application servers in a private-facing subnet with no internet access.
 
