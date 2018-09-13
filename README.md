@@ -1,12 +1,10 @@
 # AWS Certified Solutions Architect - Associate Notes 2018
 
-###### AWS SAA-C01
+###### AWS SAA-C01 [Certified Solutions Architect - Associate homepage](https://aws.amazon.com/certification/certified-solutions-architect-associate/)
 
-Have a look at the [Certified Solutions Architect - Associate homepage](https://aws.amazon.com/certification/certified-solutions-architect-associate/) to get an in-depth look at what to expect for your exam!
+Have also a look at the https://github.com/lannyzhujin/AWS_CSA_Feb_2018 ...
 
-https://github.com/lannyzhujin/AWS_CSA_Feb_2018
 
-Let's have a look at the details of the exam...
 
 ### New Exam
 
