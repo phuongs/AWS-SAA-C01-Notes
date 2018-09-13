@@ -2,15 +2,9 @@
 
 ###### AWS SAA-C01
 
-Curated documentation/study notes on going through the [Udemy, Certified Solutions Archictect - Associate 2018](https://www.udemy.com/aws-certified-solutions-architect-associate/) course. These notes are to help myself, as well as, anyone else going through this same course study and prepare for the exam. Thanks!
+Have a look at the [Certified Solutions Architect - Associate homepage](https://aws.amazon.com/certification/certified-solutions-architect-associate/) to get an in-depth look at what to expect for your exam!
 
-## My Study Practice
-
-While planning out my study schedule, I felt it would be necessary to watch one section a week, starting with Section 2: 1000 ft overview, followed up by 6 days of review \(1 - 2 hours a day\) solidifying everything I learned. This seems to work for me but might be either too slow or fast for someone else. That's OK! Learn at your own pace until you feel comfortable with the concepts, practices and information given!
-
-## The Exam Blueprint
-
-AWS has recently released the updated/new version of the AWS Certified Solutions Architect - Associate exam \(released February 2018\). The old associate exam will no longer be available starting **August 12, 2018**.
+https://github.com/lannyzhujin/AWS_CSA_Feb_2018
 
 Let's have a look at the details of the exam...
 
