@@ -40,6 +40,7 @@ Use (cidr.xyz)[https://cidr.xyz/] to figure out subnet ranges within a VPC
 - Allows you to connect one VPC with another via a direct network route using private IP addresses
 - Instances behave as if they are on the same private network.
 - You can peer VPCs with other AWS accounts as well as with other VPCs in the same account
+ -Inter-region VPC peering connections allow secure communication between VPC resources in different AWS Regions
 - Peering is in a star config: ie 1 central VPC peers with 4 others. NO TRANSITIVE PEERING!!
 
 ### VPC Endpoint
