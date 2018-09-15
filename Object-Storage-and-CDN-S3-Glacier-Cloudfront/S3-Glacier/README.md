@@ -97,6 +97,18 @@ S3 buckets can be configured to create access logs which log all requests made t
 		- **SSE-C** - Server Side Encryption with Customer Provided Keys. You manage encryption key.
 	- Client Side Encryption
 		- Encrypt data on client side and upload to S3
+		
+		
+### Performance
+Amazon S3 Announces Increased Request Rate Performance
+Posted On: Jul 17, 2018
+
+Amazon S3 now provides increased performance to support at least 3,500 requests per second to add data and 5,500 requests per second to retrieve data, which can save significant processing time for no additional charge. Each S3 prefix can support these request rates, making it simple to increase performance significantly.
+
+Applications running on Amazon S3 today will enjoy this performance improvement with no changes, and customers building new applications on S3 do not have to make any application customizations to achieve this performance. Amazon S3’s support for parallel requests means you can scale your S3 performance by the factor of your compute cluster, without making any customizations to your application. Performance scales per prefix, so you can use as many prefixes as you need in parallel to achieve the required throughput. There are no limits to the number of prefixes.
+
+## This S3 request rate performance increase removes any previous guidance to randomize object prefixes to achieve faster performance. That means you can now use logical or sequential naming patterns in S3 object naming without any performance implications. This improvement is now available in all AWS Regions. For more information, visit the Amazon S3 Developer Guide.
+
 
 ## Links
 
